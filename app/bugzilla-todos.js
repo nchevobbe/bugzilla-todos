@@ -421,6 +421,7 @@ var TodosApp = (function() {
           <span id="login"> for
             <form id="login-form" onSubmit={this.handleSubmit}>
               <input id="login-name"
+                     type="email"
                      name="email" placeholder="Enter Bugzilla user..."
                      ref="email"/>
             </form>
